@@ -15,6 +15,8 @@ Most web-search chat agents treat conversations as stateless or rely on naive ve
 
 ## 2. System Architecture & Execution Flow
 
+![Block AI Architecture](./architecture.svg)
+
 ```text
                                   +---------------------------------------+
                                   |            CLIENT (Web UI)            |
