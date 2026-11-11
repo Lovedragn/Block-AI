@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.*
+.env.local
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local SQLite Databases & Working Data
+data/
+**/data/*.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Build Artifacts
+dist/
+dist-ssr/
+build/
+**/dist/
+.next/
+**/.next/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test & Coverage
+coverage/
+.nyc_output/
+
+# Graphify & Temp Analysis
+graphify-out/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+

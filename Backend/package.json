@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/services/seed.js",
+    "test": "node eval.js"
+  },
+  "dependencies": {
+    "@google/genai": "^3.1.0",
+    "@google/generative-ai": "^0.24.1",
+    "better-sqlite3": "^11.8.1",
+    "chrono-node": "^2.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
